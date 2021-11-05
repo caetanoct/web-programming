@@ -11,10 +11,16 @@ Contents
 
 #### HTML
 
-All HTML documents must start with a document type declaration: <!DOCTYPE html>.
-The HTML document itself begins with <html> and ends with </html>.
+All HTML documents must start with a document type declaration: `<!DOCTYPE html>.`
+The HTML document itself begins with `<html>` and ends with `</html>.`
 
-The visible part of the HTML document is between <body> and </body>.
+The visible part of the HTML document is between `<body>` and `</body>`.
+
+**View HTML Source Code:**
+Right-click in an HTML page and select "View Page Source" (in Chrome) or "View Source" (in Edge), or similar in other browsers. This will open a window containing the HTML source code of the page.
+
+**Inspect an HTML Element:**
+Right-click on an element (or a blank area), and choose "Inspect" or "Inspect Element" to see what elements are made up of (you will see both the HTML and the CSS). You can also edit the HTML or CSS on-the-fly in the Elements or Styles panel that opens.
 
 **Elements**
 
@@ -32,8 +38,9 @@ The HTML element is everything from the start tag to the end tag:
 
 HTML attributes provide additional information about HTML elements.
 
-The `<a>` tag defines a hyperlink. The href attribute specifies the URL of the page the link goes to
-
+The `<a>` tag defines a hyperlink. The href attribute specifies the URL of the page the link goes to:
 ```html
 <a href="https://www.w3schools.com">Visit W3Schools</a>
 ```
+
+Usually in the format key=value `href="https://www.w3schools.com"`.
