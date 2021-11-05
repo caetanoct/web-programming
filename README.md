@@ -11,13 +11,14 @@ Contents
 
 #### HTML
 
+[HTML Tutorial by w3schools](https://www.w3schools.com/html)
+
 All HTML documents must start with a document type declaration: `<!DOCTYPE html>.`
 The HTML document itself begins with `<html>` and ends with `</html>.`
-
 The visible part of the HTML document is between `<body>` and `</body>`.
 
 **View HTML Source Code:**
-Right-click in an HTML page and select "View Page Source" (in Chrome) or "View Source" (in Edge), or similar in other browsers. This will open a window containing the HTML source code of the page.
+Right-click in an HTML page and select "View Page Source". This will open a window containing the HTML source code of the page.
 
 **Inspect an HTML Element:**
 Right-click on an element (or a blank area), and choose "Inspect" or "Inspect Element" to see what elements are made up of (you will see both the HTML and the CSS). You can also edit the HTML or CSS on-the-fly in the Elements or Styles panel that opens.
