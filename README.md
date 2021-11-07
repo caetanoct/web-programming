@@ -45,3 +45,7 @@ The `<a>` tag defines a hyperlink. The href attribute specifies the URL of the p
 ```
 
 Usually in the format key=value `href="https://www.w3schools.com"`.
+
+* Attribute lang in html tag indicates the language of the document
+* Head element - Everything before text -> tag title = title of the page
+* Body element - Everything that will be shown to the client
