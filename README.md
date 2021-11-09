@@ -167,3 +167,27 @@ In this example all HTML elements with class="center" will be red and center-ali
   color: red;
 }
 ```
+
+ID > CLASS > ELEMENT
+
+There are many Proprieties and numeric values may be in pixels, centimeters or percentages.
+
+**Box Model**
+
+Determines Dimensional, Visual and Positioning characteristics.
+
+Boxes contains the *content* and *internal/external spacements*.
+
+```
+        TOP
+     +--------+
+LEFT |        | RIGHT
+     +--------+
+       BOTTOM
+```
+Padding - Internal Margin
+Border - Element Border
+Margin - External Magin
+
+Work with Internal Left margin? --> Left Padding
+Work with Left Border? --> Margin Left/Border Left
