@@ -3,6 +3,7 @@ Contents
 * [Annotations](#Annotations)
 	* [Data Visualization](#Data-Visualization)	
 		* [HTML](#HTML)
+		* [CSS](#CSS)
 ## Annotations
 ### Data Visualization
 
@@ -49,3 +50,120 @@ Usually in the format key=value `href="https://www.w3schools.com"`.
 * Attribute lang in html tag indicates the language of the document
 * Head element - Everything before text -> tag title = title of the page
 * Body element - Everything that will be shown to the client
+
+#### CSS
+
+[W3 Tutorial](https://www.w3schools.com/css/)
+
+Cascading Style Sheets - Describe the presentation of the page. 
+
+Before CSS - The software would	choose how to present.
+Today - The developers choose how to present.
+
+HTML - STRUCTURE
+CSS - FORMAT
+
+Not case sensitive.
+
+**Inline Style**
+
+```HTML
+<p style="color:red;">This is a paragraph.</p>
+```
+
+**Incorporated Style**
+```HTML
+<style>
+body {
+  background-color: linen;
+}
+
+h1 {
+  color: maroon;
+  margin-left: 40px;
+}
+</style>
+```
+
+**External Style**
+
+Imported or Linked; The style sheet document needs to have *.css* extension
+
+Link:
+In the head section; href is the path
+```HTML
+<link rel="stylesheet" href="mystyle.css">
+```
+
+Import:
+In the head section
+
+```HTML
+<style type="text/css">
+	@import url("style.css") screen, projection;
+</style>
+```
+
+**Rules**
+
+Basic unit of a Style Sheet.
+
+The selector points to the HTML element you want to style.
+
+The declaration block contains one or more declarations separated by semicolons.
+
+Each declaration includes a CSS property name and a value, separated by a colon.
+
+Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.
+
+```css
+/*all paragraphs will be red alligned to the center*/
+p {
+  color: cyan;
+  text-align: center;
+}
+```
+text-align is a property, and center is the property value.
+*p* is the selector.
+
+together they are a rule.
+
+The CSS element Selector
+The element selector selects HTML elements based on the element name.
+
+
+Here, all <p> elements on the page will be center-aligned, with a red text color: 
+```css
+
+p {
+  text-align: center;
+  color: red;
+}
+```
+
+The CSS id Selector
+The id selector uses the id attribute of an HTML element to select a specific element.
+
+The id of an element is unique within a page, so the id selector is used to select one unique element!
+
+The CSS rule below will be applied to the HTML element with id="para1": 
+```css
+#para1 {
+  text-align: center;
+  color: red;
+}
+```
+
+The CSS class Selector
+Unique; Sugestive and Modular
+The class selector selects HTML elements with a specific class attribute.
+
+To select elements with a specific class, write a period (.) character, followed by the class name.
+
+In this example all HTML elements with class="center" will be red and center-aligned: 
+```css
+.center {
+  text-align: center;
+  color: red;
+}
+```
