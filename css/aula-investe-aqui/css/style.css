@@ -1,0 +1,81 @@
+/* all elements will have 0px of margin,padding and border; the font size will always be 100% */
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-size: 100%;
+}
+/* the header will occupy 100% of screen width and 200pixels of height */
+header{
+    width: 100%;
+    height: 200px;
+}
+/* The Main Page Image may only occupy 100% of the top hierarchy elemnt */
+#main-page-image{
+    width: 100%;
+    height: 100%;
+    /* the picture will be cut */
+    object-fit: cover;
+}
+/* the menu not the items will occupy 100% of the screen width */
+#main-page-navbar{
+    width: 100%;
+    height: 70px;
+    /* color to see how the style is looking */
+    /* background-color: blue; */
+
+}
+/* list itens will be displayed in a inline-block with left margin of 170px */
+li{
+    display: inline-block;
+    margin-left: 135px;
+    margin-top: 20px;
+}
+/* hyperlink decoration off and color black */
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main{
+    width: 100%;
+    height: 330px;
+}
+/* style of h1's in main's */
+main h1 {
+    font-weight: bold;
+    font-size: 40px;    
+    margin-left: 550px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+article{
+    display: inline-block;
+    width: 40%;
+    margin-left: 50px;
+    margin-top: 10px;
+    /* background-color: blue; */
+}
+
+.article-title{
+    font-size: 200%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.article-content{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer{
+    width: 100%;
+    background-color: black;
+}
+
+footer p {
+    color: white;
+}
