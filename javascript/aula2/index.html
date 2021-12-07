@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="button" value="botao" onclick="botao()">
+    <h1 id='0x23'>oi</h1>
+    <button onclick="altera_inner_html()">alterar</button>
+    <script>
+        function botao () {
+            window.alert("click");
+        }
+        function altera_inner_html() {
+            document.getElementById('0x23').innerHTML = "resposta = oi";
+        }
+        // estruturas de controle
+        // let num = 100;
+        // if (num > 100) {
+        //     window.alert(`valor de num é ${num}, maior q 100`);
+        // } else if (num < 100) {
+        //     window.alert("valor menor q 100");
+        // } else {
+        //     window.alert("o valor é 100");
+        // }
+        // let sw_case = 10;
+        // switch (sw_case) {
+        //     case 10:
+        //         window.alert("caso 10");
+        //         // break;
+        //     default:
+        //         window.alert("executado default");
+        //         break;
+        // }
+        // estrutura repeticao
+        // let i = 0;
+        // while (i < 10) {
+        //     let b = i;
+        //     window.alert("valor="+(++b));
+        //     i++;
+        // }
+        // dialog box
+        // let resultado = window.confirm("deseja continuar?");
+        // if (resultado) {
+        //     document.write("<h1>ok</h1>");
+        // }
+        // let result = prompt("digietel algo","default");
+        // window.alert(result);
+        // try {
+        //     aleasrt("");
+        // } catch (error) {
+        //     alert("mensagem de erro= "+error.message);
+        // }
+    </script>
+    
+</body>    
+</html>
